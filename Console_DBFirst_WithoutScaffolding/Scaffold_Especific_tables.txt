@@ -1,0 +1,8 @@
+﻿** .NET Core CLI:
+
+dotnet ef dbcontext scaffold "Server=localhost;Port=5432;Database=WebApiAutores;User Id=postgres;Password=634510" -o Models -t Autores, Libros, Comentarios, AutoresLibros -f Npgsql.EntityFrameworkCore.PostgreSQL
+
+
+** Package Manager Console in Visual Studio:
+
+Scaffold-DbContext "Server=localhost;Port=5432;Database=WebApiAutores;User Id=postgres;Password=634510" -o Models -t Autores, Libros, Comentarios, AutoresLibros -f Npgsql.EntityFrameworkCore.PostgreSQL
